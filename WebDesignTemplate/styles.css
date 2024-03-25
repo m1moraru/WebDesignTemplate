@@ -1,0 +1,317 @@
+* {
+    box-sizing: border-box;
+}
+  
+  
+
+body {
+    background-color: rgb(221, 217, 217);
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    margin: 150px;
+    max-width: 1280;
+}
+
+header {
+    margin: 0px 30px 10px;
+    height: 1em;
+}
+
+header h1 {
+    padding: 20px;
+}
+
+.container {
+    margin: 0px 10px 10px;
+    display: flex;
+    width: 100%;
+    height: 155px;
+    border-bottom: solid 0.1px grey;
+
+}
+
+/*-----------------------------*/
+
+.color {
+    display: inline-block;
+    margin: 10px;
+    text-align: right;
+    width: 130px;
+    height: 110px;
+    position: relative;
+    left: 550px;
+}
+
+.color-info {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.color-box {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    margin-right: 0;
+}
+
+/*-----------------------------*/
+
+.color .color-box {
+    position: relative;
+    left: 80px;
+    margin-bottom: 10px;
+}
+
+.color h3 {
+    font-size: 15px;
+    margin-top: 3px;
+    margin: 3px 0px 0px;
+}
+
+.color p {
+    font-size: 11px;;
+    margin-top: 2px;
+}
+
+/* Primary solors section start */
+
+.container img {
+    position: relative;
+    left: 680px;
+    margin-bottom: 70px;
+    /*position: right;*/
+    /*left: 800px;*/
+    /*text-align: right;*/
+    height: 100px;
+    width: 250px;
+ }
+ 
+.pColorContainer {
+     margin: 0px 10px 10px;
+     display: inline-block;
+     height: 20px;
+     width: 90%;
+     border: none;
+}
+ 
+.pColorWraper .pColor-box {
+     display: inline-block;
+     height: 20px;
+     width: 160px;
+     border-radius: 10px;
+     margin-left: 60px;
+     margin-top: 20px;
+ 
+}
+ 
+.pColorWraper .text {
+     font-size: 13px;
+     text-align: center;
+     padding: 2px;
+}
+ 
+.pColorWraper .blue {
+     color: white;
+}
+ 
+.pColorWraper .red {
+     color: white;
+}
+ 
+.pColorContainer h4 {
+     margin-left: 40px;
+     margin-top: 40px;
+}
+ 
+.pColorWraper {
+     position: relative;
+     left: 270px;
+     top: -65px;
+     display: inline-block;
+}
+
+
+
+/* Primary color section end */
+
+/* Color palette section begin */
+
+.paletteContainer {
+    border: none;
+    margin-top: -15px;
+    display: grid;
+}
+
+
+.paletteContainer .text {
+    color: rgb(213, 213, 213);
+    font-size: 11px;
+    padding: 4px;
+}
+
+.paletteContainer .yellow {
+    color: black;
+}
+.paletteContainer .orange {
+    color: black;
+}
+
+.paletteWraper {
+    display: inline-block;
+    position: relative;
+    left: 270px;
+}
+
+.paletteContainer .palette {
+   display: inline-block;
+   height: 25px;
+   width: 160px;
+   margin-left: 60px;
+   text-align: center;
+}
+
+/* Fonts section*/
+
+.fontHeader  {
+    /*display: inline-block;*/
+    text-align: right;
+    height: 120px;
+    /*width: 100%;*/
+    background-color: rgb(219, 218, 218);
+    margin-left: 0;
+}
+
+.fontsContainer {
+   display: flex;
+   height: 130px;
+   width: auto;
+}
+
+.fontHeader .fontTitle {
+    font-size: 30px;
+   /* display: block;*/
+    margin-top: 60px;
+    margin-right: 110px;
+
+}
+
+
+.fontsContainer .fontsColumn {
+    position: relative;
+    display: inline-block;
+    border: none;
+    height: 15em;
+    width: 47%;
+    margin: 10px;
+    padding: 25px;
+    line-height: 1.2;
+
+}
+
+.fontsContainer .sansTitle {
+    text-align: left;
+    margin-right: 110px;
+}
+
+.fontsContainer .robotoLight {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+}
+
+.fontsContainer .robotoRegular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+}
+
+.fontsContainer .robotoMedium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 15px;
+}
+
+.fontsContainer .robotoBold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+
+}
+
+.fontsContainer .poppinsLight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+}
+
+.fontsContainer .poppinsLightItalic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 15px;
+}
+
+.fontsContainer .poppinsRegular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+}
+
+.fontContainer .poppinsMedium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 15px;
+}
+
+/*Styles Section*/
+
+.stylesTitle {
+    font-size: 30px;
+}
+
+.stylesContainer {
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 25px;
+    margin-bottom: 5em;
+}
+
+.stylesHeader {
+    display: block;
+    margin-top: 10em;
+}
+
+.staylesContainer .stylesTitle {
+    font-size: 30px;;
+    display: block;
+    margin-top: 60px;
+    margin-right: 110px;
+    height: 60px;
+}
+
+.styleHeading {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.stylesColumn {
+    flex: 1;
+}
+
+footer {
+    height: 3em;
+    width: auto;
+    margin-top: -16px;
+    display: flex;
+    align-items: center; /* This aligns items vertically */
+    justify-content: center; 
+}
